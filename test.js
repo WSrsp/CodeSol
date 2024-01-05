@@ -1,7 +1,7 @@
 let muSan = "Matvey";
-
-function sayHellou(x) {
-  console.log("Hello " + x);
+let muWife = "Olga";
+function sayHellou(x, y) {
+  console.log("Hello " + x + y + ",");
 }
 
-sayHellou(muSan);
+sayHellou(muSan, muWife);
